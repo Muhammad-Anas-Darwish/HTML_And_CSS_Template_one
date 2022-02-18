@@ -481,6 +481,12 @@ body {
         font-size: 25px;
     }
 }
+
+.contact .info .creator {
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--main-color);
+}
 /* End Contact */
 
 /* Start Footer */
@@ -497,3 +503,7 @@ body {
     color: var(--main-color);
 }
 /* End Footer */
+
+.my-social {
+    
+}
