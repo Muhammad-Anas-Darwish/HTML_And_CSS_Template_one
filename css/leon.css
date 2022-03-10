@@ -487,6 +487,18 @@ body {
     font-weight: bold;
     color: var(--main-color);
 }
+
+@media (max-width: 767px) {
+    .contact .info > a {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .contact .info > a:hover {
+        overflow: visible;
+        word-wrap: break-word;
+    }
+}
 /* End Contact */
 
 /* Start Footer */
@@ -503,7 +515,3 @@ body {
     color: var(--main-color);
 }
 /* End Footer */
-
-.my-social {
-    
-}
